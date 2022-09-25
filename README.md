@@ -26,3 +26,6 @@ pred = model(input, future= 100)
 The future is the petition to have the next N hours of weather for the same input variables
 
 ![WhatsApp Image 2022-09-25 at 12 26 15 PM](https://user-images.githubusercontent.com/94182561/192156800-b2c00308-8a73-4d8e-a08d-293323769393.jpeg)
+This figure shows the plot of the prediction that the model made with the data, showing the real data and what the model get.
+
+This model is capable of accurately predicting more than 10 days of climatic changes, but losing data security after its 10-day limit.
