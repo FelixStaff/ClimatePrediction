@@ -23,4 +23,4 @@ input = ['CO', 'DV', 'HR', 'NO', 'NO2', 'NOx', 'O3', 'PB', 'PM10', 'PM2.5', 'PP'
 pred = model(input, future= 100)
 ```
 
-The future is the petition to have the next N hours of weather.
+The future is the petition to have the next N hours of weather for the same input variables
