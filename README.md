@@ -1,7 +1,15 @@
 # ClimatePrediction
 A model that can predict the weather from each street in the metropolitan zone of Monterrey
 
+## Load the model
 
+First, you need to have the ModelApodaca4.2.pt in the path Model/ModelApodaca4.2.pt
+And have the architecture of the Net, then specify the arguments and make the comand
+```{python}
+model = Net(arguments**)
+model.load_state_dict(torch.load("Model/ModelApodaca4.2.pt))
+```
+And the model will be charged
 ## The input format is
 
 ['CO', 'DV', 'HR', 'NO', 'NO2', 'NOx', 'O3', 'PB', 'PM10', 'PM2.5', 'PP',
